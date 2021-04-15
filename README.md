@@ -1,152 +1,65 @@
 # Human Centered Design @cmda-minor-web 2021
-//Interactie ontwerpen: Rapid prototypen en testen met echte mensen
 
-Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen. 
+<!-- Image of the project here - Maybe Mockup -->
 
-> What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
+_by Veerle Prins_
 
-Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwerp. Een Frontend Designer en Developer heeft verstand van techniek, UX en design. Als je web technieken beheerst kun je je ideeën snel prototypen en testen in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
+## :black_nib: Description
 
-In het vak Human Centered Design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En is het leuk?
+For the Human Centered Design course in the minor Web Design & Development we learn to create an **exclusive design** with _exclusive design principles_ for a specific user. This particular user has a barrier that causes him / her to use the internet differently from someone without barrier.
 
+**For the full process and how I came to the final version can be read in the [Wiki](https://github.com/veerleprins/human-centered-design-2021/wiki).**
 
-## Opdracht
+## :globe_with_meridians: Live Link
 
-### Ontwerpen met en voor echte mensen
+[Live Demo - Link]()
 
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. Een echt mens. Je moet je ontwerp 3 keer testen. Door te testen en te itereren ga je je ontwerp verbeteren. Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. Een _exclusive design_ ... Wie is deze persoon dan voor wie je dit gaat maken? Wat vindt deze persoon leuk of juist niet? En hoe bedient deze persoon een computer?
+## :arrow_down: Install
 
-- [Opdracht - Ontwerpen met en voor echte mensen](course/Opdracht.md)
+### 1. Install npm :computer:
 
+Before getting started, you need to install nvm. nvm can be installed by typing the following line of code in terminal and pressing enter:
 
-### Leerdoelen
+`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh `
 
-- _Leren hoe je (design) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
+If nvm has been successfully installed, you can check the version by typing the following line of code in the terminal and pressing enter:
 
-[Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/)
+`nvm --version`
 
+### 2. :open_file_folder: Clone folder
 
+Then you need to download this project and open it with your code editor. To do this, open your terminal with the correct path in which you want this repository. **Example**:
 
-## Planning & programma
+`cd/Desktop/Repos`
 
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1](#week-1)  | Intro, College inclusive design + Testen | Gastcollege + Testen | ~~Feedbackgesprekken~~ |
-| [Week 2](#week-2)  | College over testen + Testen  | Gastcollege + Testen | Feedbackgesprekken  |
-| [Week 3](#week-3)  | College + Testen  |  Gastcollege + Testen | Feedbackgesprekken  |
-| [Week 4](#week-4)  | Presentaties + Beoordelingsgesprekken | Beoordelingsgesprekken | Beoordelingsgesprekken + Weekly Nerd |
+Then type the following line of code into your terminal:
 
+`git clone https://github.com/veerleprins/human-centered-design-2021.git`
 
+With this line of code, you've successfully downloaded the repository to your desired location.
 
-### Week 1
-Deze week krijg je een college over _Exclusive Design Principles_. Deze Principles ga je toepassen in de opdracht. Op woensdag gaan we kennis maken met de echte mensen voor wie we gaan ontwerpen. Je kan dan al een kleine interactieve demo maken om te testen.
+### 3. Install all the packages :bookmark_tabs:
 
-#### Woensdag 7 april
-Woensdag is de eerste les van het vak Human Centered Design. Je krijgt een intro college over het vak en Vasilis gaat vertellen over _Exclusive Design_.
+Then type the code below into your terminal:
 
-Daarna prototypen en testen
+`npm i`
 
-- 14:00 Groep Darice
-- 15:00 Groep Eric
+With this line of code, you download all the packages you need for this repo.
 
-#### Donderdag 8 april
-Donderdag begint de les met een gastcollege. Deze les gaan we het artikelen [Exclusive Design van Vasilis van Gemert](https://exclusive-design.vasilis.nl/) bespreken.
+### 4. :white_check_mark: Start and run the code
 
-Daarna prototypen en testen
+Go to the repository in the terminal and add the following line of code below:
 
-- 10:30 Groep Roger 
-- 16:30 Groep Marijn
+` npm run start`
 
+Now you can open http://localhost:PORTNAME/ in your browser (with the port that is being given) to view the web application! :raised_hands:
 
-#### Vrijdag 9 april
-Deze dag is voor Real-Time web...
+## :lock: License
 
-
-### Week 2
-Deze week heb je het tweede gesprek met je mens. Wat ga je testen? Wat wil je weten? 
-
-#### Woensdag 14 april
-Woensdag krijg je een college over testen. Voor deze les moet je het artikel [10 Usability Lessons van Steve Krug](https://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/) lezen.
-
-Daarna voor de tweede keer prototypen en testen
-
-- 14:00 Groep Darice 
-- 15:00 Groep Eric
-
-#### Donderdag 15 april
-Donderdag begint de les met een gastcollege van Marie van Driessche. 
-
-Daarna voor de tweede keer prototypen en testen
-
-- 10:30 Groep Roger 
-- 14:00 Groep Marijn
-
-#### Vrijdag 16 april
-Vrijdag zijn er coachgesprekken in teams.
-
-
-
-
-### Week 3
-In week 3 gaan we verder met testen, itereren en reflecteren. Deze week is de laatste sessie met je mens. 
-
-#### Woensdag 21 april
-Woensdag beginnen we met een college. Voor deze les moet je dit artikel lezen: [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/).
-
-Daarna gaan we voord de laatste keer prototypen en testen
-
-- 14:00 Groep Darice 
-- 15:00 Groep Eric
-
-#### Donderdag 22 april
-Donderdag begint de les met een gastcollege van Johan Huijkman.
-
-Daarna gaan we voord de laatste keer prototypen en testen
-
-- 10:30 Groep Roger 
-- 14:00 Groep Marijn
-
-
-#### Vrijdag 23 april
-Vrijdag zijn er coachgesprekken.
-
-
-
-
-### Week 4
-
-Deze week hebben we een gesprek waarin we je vorderingen en bevindingen bespreken. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak. 
-
-
-#### Woensdag 28 april
-Teampresentaties en beoordelingsgesprekken. 
-
-#### Donderdag 29 april
-Beoordelingsgesprekken
-
-#### Vrijdag 30 april
-Beoordelingsgesprekken + Weekly Nerd
-
-
-
-
-
-<!-- Add a link to your live demo in Github Pages 🌐-->
-
-<!-- ☝️ replace this description with a description of your own work -->
+This repo is licensed as [MIT](https://github.com/veerleprins/human-centered-design-2021/blob/master/LICENSE) by :copyright: [Veerle Prins](https://github.com/veerleprins), 2021
 
 <!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
 
 <!-- ...but how does one use this project? What are its features 🤔 -->
 
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
