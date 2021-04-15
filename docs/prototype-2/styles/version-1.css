@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Metal Mania", cursive;
+  font-family: "New Rocker", cursive;
   background-color: rgb(29, 29, 29);
   background-image: url("../images/Metal.jpeg");
   background-size: cover;
