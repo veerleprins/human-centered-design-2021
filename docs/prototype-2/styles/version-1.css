@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Metal Mania", cursive;
   background-color: rgb(29, 29, 29);
   background-image: url("../images/Metal.jpeg");
   background-size: cover;
