@@ -1,0 +1,22 @@
+{
+  "name": "human-centered-design-2021",
+  "version": "1.0.0",
+  "description": "An exclusive design with & for Marijn Meijles",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veerleprins/human-centered-design-2021.git"
+  },
+  "author": "Veerle Prins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/veerleprins/human-centered-design-2021/issues"
+  },
+  "homepage": "https://github.com/veerleprins/human-centered-design-2021#readme"
+}
