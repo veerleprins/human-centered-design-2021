@@ -18,9 +18,17 @@ let journey = {
 
 // Create the default buttons:
 const buttons = createElements(
-  3,
+  7,
   "button",
-  ["Eindhoven CS", "Amsterdam CS", "Mijn locatie"],
+  [
+    "Mijn locatie",
+    "Eindhoven CS",
+    "Amsterdam CS",
+    "Utrecht CS",
+    "Rotterdam CS",
+    "Schiphol Airport",
+    "Almere Centrum",
+  ],
   "button"
 );
 buttons.forEach((button) => {
@@ -30,19 +38,10 @@ buttons[0].focus();
 
 const buttonList = document.querySelectorAll(".button");
 
-console.log(buttonList[0]);
-// buttonList[0].addEventListener("keyup", (event) => {
-//   let key = event.keyCode;
-//   console.log(key);
-//   if (key === 72) {
-//     let indexLast = buttonList.length - 1;
-//     buttonList[indexLast].focus();
-//   }
-// });
-
 buttonList.forEach((button, index) => {
   button.addEventListener("keyup", (event) => {
     let key = event.keyCode;
+    console.log(key);
     // 38 = up
     // 40 = down
     if (index === 0) {
@@ -69,7 +68,16 @@ buttonList.forEach((button, index) => {
       }
     }
     if (key === 13) {
-      console.log(button.textContent);
+      let text = button.textContent;
+      if (text !== "Mijn locatie") {
+        changeText(fromStation, text);
+      } else if (text === "Mijn locatie") {
+        changeText(fromStation, "Eindhoven CS");
+      }
+      document.getElementById;
+      let replaced = text.replace(" ", "%20");
+      journey.departure = replaced;
+      console.log(journey);
     }
   });
 });
@@ -77,6 +85,10 @@ buttonList.forEach((button, index) => {
 // buttonList[0].addEventListener("keyup", (event) => {
 //   console.log(event);
 // });
+
+function changeText(element, station) {
+  element.textContent = station;
+}
 
 function createElements(amount, element, textList, className) {
   let list = [];
