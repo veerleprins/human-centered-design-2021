@@ -24,7 +24,6 @@ let journey = {
 // Events
 document.addEventListener("keypress", (event) => {
   let pressedKey = event.charCode;
-  console.log(pressedKey);
   if (keysToWork.includes(pressedKey)) {
     // Change text
     changeText(fromStation, "Eindhoven CS");
@@ -77,11 +76,6 @@ document.addEventListener("keypress", (event) => {
   } else if (keysElse.includes(pressedKey)) {
     window.location.href =
       window.location.origin + "/prototype-3/prototype-3-else.html";
-    // console.log(window.location.origin + "/prototype-3/prototype-3-else");
-    // window.location.href = `${window.location.origin}/newpage`;
-    // // Change image
-    // keyboard.setAttribute("src", "/prototype-3/images/keyboard-anders.svg");
-
     // // Remove
     // legend.remove();
 
@@ -90,17 +84,6 @@ document.addEventListener("keypress", (event) => {
     // changeText(toStation, "__________");
     // changeText(when, "__________");
     // changeText(time, "__________");
-
-    // // Create the default buttons:
-    // const buttons = createElements(
-    //   3,
-    //   "button",
-    //   ["Eindhoven CS", "Amsterdam CS", "Mijn locatie"],
-    //   "button"
-    // );
-    // buttons.forEach((button) => {
-    //   output.appendChild(button);
-    // });
   }
 });
 

@@ -43,25 +43,28 @@ console.log(buttonList[0]);
 buttonList.forEach((button, index) => {
   button.addEventListener("keyup", (event) => {
     let key = event.keyCode;
-    console.log(key);
+    // 38 = up
+    // 40 = down
     if (index === 0) {
-      if (key === 72) {
+      // First button
+      if (key === 72 || key === 37) {
         let indexLast = buttonList.length - 1;
         buttonList[indexLast].focus();
-      } else if (key === 76) {
+      } else if (key === 76 || key === 39) {
+        // To the right
         buttonList[index + 1].focus();
       }
     } else if (buttonList.length - 1 === index) {
-      console.log("test");
-      if (key === 76) {
+      // Last button
+      if (key === 76 || key === 39) {
         buttonList[0].focus();
-      } else if (key === 72) {
+      } else if (key === 72 || key === 37) {
         buttonList[index - 1].focus();
       }
     } else {
-      if (key === 72) {
+      if (key === 72 || key === 37) {
         buttonList[index - 1].focus();
-      } else if (key === 76) {
+      } else if (key === 76 || key === 39) {
         buttonList[index + 1].focus();
       }
     }
