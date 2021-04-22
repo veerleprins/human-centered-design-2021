@@ -58,10 +58,10 @@ Now you can open http://localhost:PORTNAME/ in your browser (with the port that 
 
 This repo is licensed as [MIT](https://github.com/veerleprins/human-centered-design-2021/blob/master/LICENSE) by :copyright: [Veerle Prins](https://github.com/veerleprins), 2021
 
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
-
 <!-- ...but how does one use this project? What are its features 🤔 -->
 
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- https://css-tricks.com/having-a-little-fun-with-custom-focus-styles/ -->
+<!--
+https://css-tricks.com/having-a-little-fun-with-custom-focus-styles/
+https://www.digitalocean.com/community/tutorials/understanding-date-and-time-in-javascript
+https://stackoverflow.com/questions/1846599/how-to-find-out-what-character-key-is-pressed
+ -->
