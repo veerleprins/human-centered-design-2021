@@ -1,6 +1,6 @@
-# Human Centered Design @cmda-minor-web 2021
+# Exclusive Design for Marijn Meijles
 
-<!-- Image of the project here - Maybe Mockup -->
+<img width="970" alt="Screenshot of the final application." src="https://user-images.githubusercontent.com/35265583/116616641-37d90200-a93d-11eb-8173-73d5fc3eaaa0.png">
 
 _by Veerle Prins_
 
@@ -12,7 +12,7 @@ For the Human Centered Design course in the minor Web Design & Development we le
 
 ## :globe_with_meridians: Live Link
 
-[Live Demo - Link]()
+[Live Demo - Link](https://human-centered-design-veerleprins.netlify.app/)
 
 ## :arrow_down: Install
 
