@@ -12,7 +12,7 @@ For the Human Centered Design course in the minor Web Design & Development we le
 
 ## :globe_with_meridians: Live Link
 
-[Live Demo - Link](https://human-centered-design-veerleprins.netlify.app/)
+[Live Demo - Link](https://hcd-veerleprins.netlify.app)
 
 ## :arrow_down: Install
 
