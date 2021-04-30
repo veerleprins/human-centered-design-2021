@@ -9,7 +9,7 @@
 body {
   font-family: "New Rocker", cursive;
   background-color: rgb(29, 29, 29);
-  background-image: url("../images/Metal.jpeg");
+  background-image: url("../images/redSmoke.jpg");
   background-size: cover;
   color: white;
   height: 100vh;
@@ -51,7 +51,7 @@ body main section ul li a {
 }
 
 body main section ul li a:focus {
-  outline: 4px solid hotpink;
+  outline: 4px solid #7c1202;
 }
 
 body main section ul {
