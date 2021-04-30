@@ -27,12 +27,24 @@ document.addEventListener("keypress", (event) => {
   if (keysToWork.includes(pressedCode) || keysToWork.includes(pressedKey)) {
     // Getting the current time and date
     let timestamp = getTimeAndDate();
+    console.log(timestamp);
+
+    if (+timestamp.day === 30) {
+      timestamp.day = 01;
+      timestamp.month = +timestamp.month + 1;
+    } else {
+      timestamp.day = +timestamp.day + 1;
+    }
+
+    // if (weekday === 5) {
+    //   timestamp.day = +timestamp.day + 2;
+    // }
 
     // The endpoint for NS:
     let endpoint = getEndpoint(
       "Eindhoven%20Centraal",
       "Amsterdam%20Centraal",
-      `${timestamp.year}-${timestamp.month}-${+timestamp.day + 1}`,
+      `${timestamp.year}-${timestamp.month}-${timestamp.day}`,
       "07:30"
     );
 
@@ -115,6 +127,7 @@ function getTimeAndDate() {
     day: now.getDate().toString(),
     hour: hour,
     minutes: minutes,
+    weekday: now.getDay(),
   };
 }
 
