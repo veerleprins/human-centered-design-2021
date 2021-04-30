@@ -68,13 +68,13 @@ buttonList.forEach((button, index) => {
       }
     }
     if (key === 13) {
+      // Space = 32 - 13 = enter
       let text = button.textContent;
       if (text !== "Mijn locatie") {
         changeText(fromStation, text);
       } else if (text === "Mijn locatie") {
         changeText(fromStation, "Eindhoven CS");
       }
-      document.getElementById;
       let replaced = text.replace(" ", "%20");
       journey.departure = replaced;
       console.log(journey);

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/final/styles/main.css" />
+    <title>Marijn's Reis Planner</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Reis Planner:</h1>
+      </header>
+      <div class="cards-trip">
+        <section>
+          <ul>
+            <li>
+              <span class="plan">van:</span>
+              <span class="metal" id="fromStation">Huis: Eindhoven CS</span>
+            </li>
+            <li>
+              <span class="plan">naar:</span>
+              <span class="metal" id="toStation">Werk: Amsterdam CS</span>
+            </li>
+            <li>
+              <span class="plan">wanneer:</span>
+              <span class="metal" id="when">Morgenochtend 08.00</span>
+            </li>
+          </ul>
+          <div class="button">
+            <p id="toWork">Naar Werk</p>
+          </div>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <span class="plan">van:</span>
+              <span class="metal" id="fromStation">Werk: Amsterdam CS</span>
+            </li>
+            <li>
+              <span class="plan">naar:</span>
+              <span class="metal" id="toStation">Huis: Eindhoven CS</span>
+            </li>
+            <li>
+              <span class="plan">wanneer:</span>
+              <span class="metal" id="when">Over een uur</span>
+            </li>
+          </ul>
+          <div class="button">
+            <p id="toHome">Naar Huis...</p>
+          </div>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <span class="plan">van:</span>
+              <span class="metal" id="fromStation">-------------</span>
+            </li>
+            <li>
+              <span class="plan">naar:</span>
+              <span class="metal" id="toStation">-------------</span>
+            </li>
+            <li>
+              <span class="plan">wanneer:</span>
+              <span class="metal" id="when">___________</span>
+            </li>
+          </ul>
+          <div class="button">
+            <p id="else">Anders...</p>
+          </div>
+        </section>
+      </div>
+      <section class="keyboardSection">
+        <!-- <div id="output"></div> -->
+        <!-- Keyboard SVG here -->
+        <img
+          src="/final/images/keyboard-3options.svg"
+          alt="Keyboard MacBook Pro with colour on keys."
+          id="keyboard"
+        />
+      </section>
+      <div class="guitarIMG">
+        <img
+          src="/final/images/Electric-Guitar.svg"
+          alt="Illustration of a electric guitar."
+        />
+      </div>
+    </main>
+    <script src="/final/js/client.js"></script>
+  </body>
+</html>

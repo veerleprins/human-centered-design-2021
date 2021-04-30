@@ -1,6 +1,6 @@
 # Exclusive Design for Marijn Meijles
 
-<img width="970" alt="Screenshot of the final application." src="https://user-images.githubusercontent.com/35265583/116616641-37d90200-a93d-11eb-8173-73d5fc3eaaa0.png">
+<img width="973" alt="Screenshot of the final prototype" src="https://user-images.githubusercontent.com/35265583/116622958-ce112600-a945-11eb-9d50-59bd14daa290.png">
 
 _by Veerle Prins_
 
@@ -58,10 +58,12 @@ Now you can open http://localhost:PORTNAME/ in your browser (with the port that 
 
 This repo is licensed as [MIT](https://github.com/veerleprins/human-centered-design-2021/blob/master/LICENSE) by :copyright: [Veerle Prins](https://github.com/veerleprins), 2021
 
-<!-- ...but how does one use this project? What are its features 🤔 -->
+## Resources
 
-<!--
-https://css-tricks.com/having-a-little-fun-with-custom-focus-styles/
-https://www.digitalocean.com/community/tutorials/understanding-date-and-time-in-javascript
-https://stackoverflow.com/questions/1846599/how-to-find-out-what-character-key-is-pressed
- -->
+- SampleFocus. (z.d.). Free Electric Guitar samples, sounds, and loops | Sample Focus. Geraadpleegd op 29 april 2021, van https://samplefocus.com/categories/electric-guitar
+- Rascia, T. (2021, 22 april). Understanding Date and Time in JavaScript. DigitalOcean. https://www.digitalocean.com/community/tutorials/understanding-date-and-time-in-javascript
+- JavaScript Key Codes. (z.d.). JavaScriptKeyCode. Geraadpleegd op 24 april 2021, van http://javascriptkeycode.com/
+- CoYod. (2009, 4 december). How to find out what character key is pressed? [Stack Overflow Post]. Stack Overflow. https://stackoverflow.com/questions/1846599/how-to-find-out-what-character-key-is-pressed
+- Eineki. (2017, 22 juni). Javascript: can’t play wav file [Stack Overflow Post]. Stack Overflow. https://stackoverflow.com/questions/44710972/javascript-cant-play-wav-file
+- GeeksforGeeks. (2019, 19 februari). Open a link without clicking on it using JavaScript. https://www.geeksforgeeks.org/open-a-link-without-clicking-on-it-using-javascript/
+- NS. (z.d.). Lijst van stations met NS reisassistentie. Geraadpleegd op 27 april 2021, van https://www.ns.nl/binaries/_ht_1608019124728/content/assets/ns-nl/reisinformatie/lijst-van-stations-met-ns-reisassistentie---2020.pdf
